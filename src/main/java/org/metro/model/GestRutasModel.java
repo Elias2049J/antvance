@@ -1,4 +1,9 @@
 package org.metro.model;
 
-public abstract class GestRutasModel extends GestionModel{
+public class GestRutasModel extends GestionModel {
+    @Override
+    public boolean mostrarMenu() {
+
+        return false;
+    }
 }

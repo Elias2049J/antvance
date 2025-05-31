@@ -14,4 +14,6 @@ public class Inspeccion {
     private String tipo;
     private Date fecha;
     private Integer kilometraje;
+    private String resultado;
+    private String observacion;
 }

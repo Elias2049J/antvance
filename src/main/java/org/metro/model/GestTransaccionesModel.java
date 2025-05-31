@@ -1,4 +1,9 @@
 package org.metro.model;
 
-public abstract class GestTransaccionesModel extends GestionModel{
+public class GestTransaccionesModel extends GestionModel {
+    @Override
+    public boolean mostrarMenu() {
+
+        return false;
+    }
 }

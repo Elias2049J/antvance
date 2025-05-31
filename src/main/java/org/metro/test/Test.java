@@ -1,10 +1,10 @@
 package org.metro.test;
 
-import org.metro.model.MenuModel;
+import org.metro.model.GestionModel;
 
 public class Test {
     public static void main(String[] args) {
-        MenuModel menu = new MenuModel();
-        menu.mostrarMenu();
+        GestionModel sistemaGestion = new GestionModel();
+        sistemaGestion.mostrarMenu();
     }
 }
