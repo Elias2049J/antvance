@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
 //Esta clase genérica sirve como plantilla
 //para las clases que se usarán como estructuras de datos en el testing
@@ -22,4 +21,8 @@ public abstract class DataAntvance<T> {
     }
 
     public abstract void precargarDatos();
+
+    public DataAntvance(){
+        precargarDatos();
+    }
 }

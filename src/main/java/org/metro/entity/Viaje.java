@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.sql.Time;
+import java.time.LocalTime;
 import java.util.Date;
 
 @Data
@@ -14,7 +14,7 @@ import java.util.Date;
 public class Viaje {
     private Integer id_viaje;
     private Date fecha;
-    private Time hora_salida;
-    private Time hora_llegada;
+    private LocalTime hora_salida;
+    private LocalTime hora_llegada;
     private String observacion;
 }

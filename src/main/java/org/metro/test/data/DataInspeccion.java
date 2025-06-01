@@ -6,11 +6,6 @@ import java.util.Date;
 //clase concreta qeu sirve como estructura de datos para test
 public class DataInspeccion extends DataAntvance<Inspeccion> {
 
-    //constructor vacío para que al instanciar precargue los datos
-    public DataInspeccion() {
-        precargarDatos();
-    }
-
     @Override
     public void precargarDatos() {
         //for para agregar datos dinámicamente en runtime

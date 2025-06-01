@@ -62,6 +62,8 @@ public class GestionModel implements GestionModelUseCase {
                 gestInspeccionModel.mostrarMenu();
                 break;
             case 2:
+                GestRutasModel gestRutasModel = new GestRutasModel();
+                gestRutasModel.mostrarMenu();
                 break;
             case 3:
                 break;
