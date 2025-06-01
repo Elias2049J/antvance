@@ -1,16 +1,11 @@
 package org.metro.model;
 
-import org.metro.entity.Inspeccion;
-import org.metro.test.data.DataInspeccion;
+import org.metro.test.entity.Inspeccion;
 import org.metro.usecase.InspeccionesUseCase;
 
 import java.util.Date;
 
 public class GestInspeccionModel extends GestionModel implements InspeccionesUseCase {
-
-    //se instancia DataInspección para trabajar sobre esta estructura de datos
-    // y precargar los datos
-    DataInspeccion dataInspeccion = new DataInspeccion();
 
     @Override
     public boolean mostrarMenu() {

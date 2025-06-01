@@ -1,4 +1,4 @@
-package org.metro.entity;
+package org.metro.test.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

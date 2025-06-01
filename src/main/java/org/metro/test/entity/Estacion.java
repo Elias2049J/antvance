@@ -1,6 +1,5 @@
-package org.metro.entity;
+package org.metro.test.entity;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,16 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-@Table(name = "estacion")
 public class Estacion {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id_estacion;
     private String nombre;
     private String ubicacion;
-
-    @ManyToOne
-    @JoinColumn(name = "id_estacion")
-    Ruta ruta;
 }

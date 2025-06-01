@@ -1,6 +1,5 @@
-package org.metro.entity;
+package org.metro.test.entity;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,16 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-@Table(name = "vehiculo")
 public class Vehiculo {
-    @Id
     private String placa;
     private String modelo;
     private String marca;
     private Integer a_fabrica;
-
-    @ManyToOne
-    @JoinColumn(name = "placa")
-    private Chofer chofer;
 }

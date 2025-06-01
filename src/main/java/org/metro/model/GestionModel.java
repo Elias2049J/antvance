@@ -1,11 +1,20 @@
 package org.metro.model;
 
+import org.metro.test.data.*;
 import org.metro.usecase.GestionModelUseCase;
 
 import java.util.Scanner;
 
 public class GestionModel implements GestionModelUseCase {
+
     Scanner sc = new Scanner(System.in);
+    //se instancia DataInspección para trabajar sobre esta estructura de datos
+    // y precargar los datos
+    DataInspeccion dataInspeccion = new DataInspeccion();
+    DataRuta dataRuta = new DataRuta();
+    DataViaje dataViaje = new DataViaje();
+    DataChofer dataChofer = new DataChofer();
+    DataVehiculo dataVehiculo = new DataVehiculo();
 
     public boolean mostrarMenu() {
         int opcionParaSeguir;

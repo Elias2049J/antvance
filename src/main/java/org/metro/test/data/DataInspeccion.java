@@ -1,10 +1,14 @@
 package org.metro.test.data;
 
-import org.metro.entity.Inspeccion;
+import org.metro.test.entity.Inspeccion;
 
 import java.util.Date;
 //clase concreta qeu sirve como estructura de datos para test
-public class DataInspeccion extends DataAntvance<Inspeccion> {
+public class DataInspeccion extends DataAntvance<Inspeccion, Integer> {
+
+    public DataInspeccion() {
+        precargarDatos();
+    }
 
     @Override
     public void precargarDatos() {
@@ -31,5 +35,10 @@ public class DataInspeccion extends DataAntvance<Inspeccion> {
             );
             agregar(inspeccion);
         }
+    }
+
+    @Override
+    public Inspeccion getObjetoById(Integer integer) {
+        return null;
     }
 }

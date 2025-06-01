@@ -1,4 +1,4 @@
-package org.metro.entity;
+package org.metro.test.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,6 +10,8 @@ import java.sql.Timestamp;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Transaccion {
-    private Integer id_transaccion;
+    protected Integer id_transaccion;
     private Timestamp fecha_hora;
+    private Integer id_tarjeta;
+    private Integer id_modulo;
 }

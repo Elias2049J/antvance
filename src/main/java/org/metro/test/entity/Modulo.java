@@ -1,4 +1,4 @@
-package org.metro.entity;
+package org.metro.test.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Tarjeta {
-    private Integer id_tarjeta;
-    private double saldo;
+public class Modulo {
+    protected Integer id_modulo;
+    private String tipo_modulo;
 }

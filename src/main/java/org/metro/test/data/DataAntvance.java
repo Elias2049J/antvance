@@ -9,9 +9,10 @@ import java.util.List;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 //Esta clase genérica sirve como plantilla
 //para las clases que se usarán como estructuras de datos en el testing
-public abstract class DataAntvance<T> {
+public abstract class DataAntvance<T, ID> {
     private List<T> listaObjetos = new ArrayList<>();
 
     //method para agregar un nuevo objeto a nuestra lista de objetos
@@ -22,7 +23,5 @@ public abstract class DataAntvance<T> {
 
     public abstract void precargarDatos();
 
-    public DataAntvance(){
-        precargarDatos();
-    }
+    public abstract T getObjetoById(ID id);
 }
