@@ -1,4 +1,4 @@
-package org.antvance.infraestructure.config;// En algún paquete de configuración, por ejemplo org.antvance.infraestructure.config
+package org.antvance.infraestructure.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
