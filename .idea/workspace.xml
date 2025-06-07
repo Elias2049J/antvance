@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ab33a2d-d539-4fc3-9cd4-56dbbddd7f79" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/model/GestionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/model/GestionModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/inbound/web/WebPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/inbound/CrudPort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/outbound/InspeccionRepoPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/outbound/InspeccionRepoPort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/outbound/VehiculoRepoPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/outbound/VehiculoRepoPort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/persistence/InspeccionRepoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/persistence/InspeccionRepoAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/persistence/VehiculoRepoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/persistence/VehiculoRepoAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/web/WebAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/web/WebAdapter.java" afterDir="false" />
-    </list>
+    <list default="true" id="5ab33a2d-d539-4fc3-9cd4-56dbbddd7f79" name="Changes" comment="Refactor ports and adapters to implement CRUD interface" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +21,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Elias2049J"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Elias2049J/antvance.git",
+    "accountId": "c3ddd170-7b3e-4df4-ad4e-40d746923ff5"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -89,10 +92,24 @@
       <workItem from="1749050124072" duration="259000" />
       <workItem from="1749057827770" duration="1843000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactor ports and adapters to implement CRUD interface">
+      <option name="closed" value="true" />
+      <created>1749275907018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749275907018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update workspace.xml" />
+    <MESSAGE value="Refactor ports and adapters to implement CRUD interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor ports and adapters to implement CRUD interface" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
