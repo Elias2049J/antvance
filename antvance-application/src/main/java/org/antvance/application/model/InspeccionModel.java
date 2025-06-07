@@ -14,7 +14,7 @@ public class InspeccionModel extends GestionModel<Inspeccion, Long> {
 
     @Override
     public Inspeccion crear(Inspeccion dto) {
-        return inspeccionRepoPort.guardar(dto);
+        return inspeccionRepoPort.crear(dto);
     }
 
     @Override

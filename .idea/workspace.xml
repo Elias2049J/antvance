@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ab33a2d-d539-4fc3-9cd4-56dbbddd7f79" name="Changes" comment="Refactor ports and adapters to implement CRUD interface" />
+    <list default="true" id="5ab33a2d-d539-4fc3-9cd4-56dbbddd7f79" name="Changes" comment="Refactor ports and adapters to implement CRUD interface">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/model/InspeccionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/model/InspeccionModel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Elias2049J"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Elias2049J&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Elias2049J/antvance.git",
-    "accountId": "c3ddd170-7b3e-4df4-ad4e-40d746923ff5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Elias2049J/antvance.git&quot;,
+    &quot;accountId&quot;: &quot;c3ddd170-7b3e-4df4-ad4e-40d746923ff5&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -65,7 +68,7 @@
   <component name="RunManager">
     <configuration name="AntvanceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.antvance.infraestructure.AntvanceApplication" />
-      <module name="antvance-infraestructure" />
+      <module name="antvance-infrastructure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.antvance.infraestructure.*" />
