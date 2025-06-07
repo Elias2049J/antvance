@@ -18,7 +18,7 @@ public class InspeccionRepoAdapter implements InspeccionRepoPort {
     }
 
     @Override
-    public Inspeccion guardar(Inspeccion inspeccion) {
+    public Inspeccion crear(Inspeccion inspeccion) {
         return inspeccionJpaRepo.save(inspeccion);
     }
 

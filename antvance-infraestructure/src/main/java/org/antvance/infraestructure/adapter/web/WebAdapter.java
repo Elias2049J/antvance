@@ -1,9 +1,9 @@
 package org.antvance.infraestructure.adapter.web;
 
-import org.antvance.application.port.inbound.web.WebPort;
+import org.antvance.application.port.inbound.CrudPort;
 import java.util.List;
 
-public abstract class WebAdapter<T, ID> implements WebPort<T, ID> {
+public abstract class WebAdapter<T, ID> implements CrudPort<T, ID> {
 
     @Override
     public abstract T crear(T dto);

@@ -1,8 +1,8 @@
-package org.antvance.application.port.inbound.web;
+package org.antvance.application.port.inbound;
 
 import java.util.List;
 
-public interface WebPort<T, ID> {
+public interface CrudPort<T, ID> {
     T crear(T dto);
     T actualizar(ID id, T dto);
     boolean eliminar(ID id);

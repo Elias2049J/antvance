@@ -5,86 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ab33a2d-d539-4fc3-9cd4-56dbbddd7f79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/antvance-application/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/model/GestionModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/model/InspeccionModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/model/RutaModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/model/TransaccionModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/model/VehiculoModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/model/ViajeModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/inbound/web/WebPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/outbound/InspeccionRepoPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/outbound/VehiculoRepoPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/AntvanceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/persistence/InspeccionRepoAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/persistence/VehiculoRepoAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/web/WebAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/web/WebInspeccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/web/WebRuta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/web/WebTransaccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/web/WebVehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/web/WebViaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/repository/InspeccionJpaRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/repository/VehiculoJpaRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/application/context/ConsoleContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/context/ConsoleContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/application/context/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/context/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/application/model/GestionModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/application/model/InspeccionModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/application/model/RutaViajeModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/application/model/TransaccionModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/application/port/entrante/ConsoleStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/inbound/ConsoleStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/application/port/saliente/ConsoleRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/outbound/ConsoleRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/application/port/saliente/DeskRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/application/usecase/InspeccionUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/usecase/InspeccionUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/application/usecase/RutaViajeUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/usecase/RutaViajeUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/application/usecase/TransaccionUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/usecase/TransaccionUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/domain/entity/Chofer.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-domain/src/main/java/org/antvance/domain/entity/Chofer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/domain/entity/Estacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-domain/src/main/java/org/antvance/domain/entity/Estacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/domain/entity/Inspeccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-domain/src/main/java/org/antvance/domain/entity/Inspeccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/domain/entity/Modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-domain/src/main/java/org/antvance/domain/entity/Modulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/domain/entity/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-domain/src/main/java/org/antvance/domain/entity/Ruta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/domain/entity/Tarjeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-domain/src/main/java/org/antvance/domain/entity/Tarjeta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/domain/entity/TipoTarjeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-domain/src/main/java/org/antvance/domain/entity/TipoTarjeta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/domain/entity/Transaccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-domain/src/main/java/org/antvance/domain/entity/Transaccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/domain/entity/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-domain/src/main/java/org/antvance/domain/entity/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/domain/entity/Viaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-domain/src/main/java/org/antvance/domain/entity/Viaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/infraestructure/adapter/entrada/ConsoleAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/console/ConsoleAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/infraestructure/adapter/entrada/ConsoleMenuInspeccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/console/ConsoleMenuInspeccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/infraestructure/adapter/entrada/ConsoleMenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/console/ConsoleMenuPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/infraestructure/adapter/entrada/ConsoleMenuRuta.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/console/ConsoleMenuRuta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/infraestructure/adapter/entrada/ConsoleMenuTransaccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/console/ConsoleMenuTransaccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/infraestructure/adapter/entrada/JavaFXAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/infraestructure/adapter/salida/ConsoleRendererImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/console/ConsoleRendererImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/infraestructure/adapter/salida/DeskRendererImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/infraestructure/adapter/salida/InspeccionRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/console/InspeccionRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/data/DataAntvance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/data/DataChofer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/data/DataInspeccion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/data/DataRuta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/data/DataVehiculo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/data/DataViaje.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/entity/Chofer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/entity/Estacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/entity/Inspeccion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/entity/Modulo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/entity/Ruta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/entity/Tarjeta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/entity/TipoTarjeta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/entity/Transaccion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/entity/Vehiculo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/metro/test/entity/Viaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/model/GestionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/model/GestionModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/inbound/web/WebPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/inbound/CrudPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/outbound/InspeccionRepoPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/outbound/InspeccionRepoPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/outbound/VehiculoRepoPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-application/src/main/java/org/antvance/application/port/outbound/VehiculoRepoPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/persistence/InspeccionRepoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/persistence/InspeccionRepoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/persistence/VehiculoRepoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/persistence/VehiculoRepoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/web/WebAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/antvance-infraestructure/src/main/java/org/antvance/infraestructure/adapter/web/WebAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,9 +46,17 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/henoc/IdeaProjects/antvance&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
@@ -150,7 +86,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748993306515</updated>
+      <workItem from="1749050124072" duration="259000" />
+      <workItem from="1749057827770" duration="1843000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

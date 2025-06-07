@@ -1,6 +1,6 @@
 package org.antvance.application.model;
 
-import org.antvance.application.port.inbound.web.WebPort;
+import org.antvance.application.port.inbound.CrudPort;
 
-public abstract class GestionModel<T, ID> implements WebPort<T, ID> {
+public abstract class GestionModel<T, ID> implements CrudPort<T, ID> {
 }

@@ -16,7 +16,7 @@ public class VehiculoRepoAdapter implements VehiculoRepoPort {
     }
 
     @Override
-    public Vehiculo guardar(Vehiculo vehiculo) {
+    public Vehiculo crear(Vehiculo vehiculo) {
         return vehiculoJpaRepo.save(vehiculo);
     }
 
